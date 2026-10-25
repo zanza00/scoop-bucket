@@ -1,18 +1,22 @@
 {
-  "version": "0.8.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/zanza00/what-to-run/releases/download/v0.8.0/what-to-run_0.8.0_windows_amd64.zip",
-      "bin": ["wtr.exe"],
-      "hash": "886545b25a2f30a8db200ddf0a91ab644aa3dfa299a160ed8c478edefbd1fc6f"
+    "version": "0.9.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zanza00/what-to-run/releases/download/v0.9.0/what-to-run_0.9.0_windows_amd64.zip",
+            "bin": [
+                "wtr.exe"
+            ],
+            "hash": "107e14cd53c5de3577d00cdb21f569c35749037dceebc3be84009304a1bdb70f"
+        },
+        "arm64": {
+            "url": "https://github.com/zanza00/what-to-run/releases/download/v0.9.0/what-to-run_0.9.0_windows_arm64.zip",
+            "bin": [
+                "wtr.exe"
+            ],
+            "hash": "0653c55e44b03dd07abafe0d45e900bdacc5da240ac04c7f0f44e7338cb96e59"
+        }
     },
-    "arm64": {
-      "url": "https://github.com/zanza00/what-to-run/releases/download/v0.8.0/what-to-run_0.8.0_windows_arm64.zip",
-      "bin": ["wtr.exe"],
-      "hash": "5d474fc035e3a6fa6ec3912aeb019a3da52db02d298e60aaab07c9fef362c9d7"
-    }
-  },
-  "homepage": "https://github.com/zanza00/what-to-run",
-  "license": "MIT",
-  "description": "Task picker for the commands you can never remember in a repository"
+    "homepage": "https://github.com/zanza00/what-to-run",
+    "license": "MIT",
+    "description": "Task picker for the commands you can never remember in a repository"
 }
